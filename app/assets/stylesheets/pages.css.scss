@@ -1,0 +1,50 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.TopSite  {
+text-align: center;
+ background-image: "images.jpg";
+
+
+}
+
+.VideoSection {
+text-align: center;
+
+
+}
+
+.Site {
+text-align: center;
+background-color: #404040;
+}
+
+
+
+.col_1 {
+position: absolute;
+left: 0%;
+right: 80%; 
+
+}
+
+.col_2 {
+position: absolute; 
+left: 40%;
+right: 50%;
+
+
+}
+
+.col_3 {
+position: absolute;
+left: 75%;
+right: 25%;
+
+}
+
+
+
+
