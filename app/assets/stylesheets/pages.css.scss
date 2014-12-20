@@ -4,52 +4,63 @@
 
 
 .TopSite  {
-text-align: center;
-background: url("images.jpg");
-background-size: 100% 100%;
-background-repeat: no-repeat;
+text-align:center;
+background:url("yt_skyline.jpg");
+background-size:100% 100%;
+background-repeat:no-repeat;
+
 }
+
+.red {
+	color:red;
+	font-size:250%;
+}
+
+
+
+
+
 
 .video {
-padding-top: 70px;
-
+padding-top:35px;
+text-align:center;
 }
 
-
-.VideoSection {
-text-align: center;
-
-
+.about-section{
+margin-left:15%;
+padding-top:5px;
+padding-bottom:70px;
 }
 
 .Site {
-text-align: center;
+text-align:center;
 background-color: #404040;
 }
 
-
-
-.col_1 {
-position: absolute;
-left: 0%;
-right: 80%; 
-
+.copy {
+margin-left:15%;
+padding-bottom:70px;
 }
 
-.col_2 {
-position: absolute; 
-left: 40%;
-right: 50%;
-
-
+.adcopy {
+color:red;
+padding-top:70px;
 }
 
-.col_3 {
-position: absolute;
-left: 75%;
-right: 25%;
-
+.pricing {
+margin-left:15%;
+padding-top:20px;
+padding-bottom:70px;
 }
+
+.call {
+text-align:center;
+}
+
+
+
+
+
 
 
 
