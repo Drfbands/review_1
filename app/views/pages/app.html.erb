@@ -1,3 +1,4 @@
+ <div class="container">
 <nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
@@ -15,13 +16,27 @@
     <ul class="nav navbar-nav navbar-right">
       <li><%= link_to "Home", root_path %></li>
       <li><%= link_to "About", about_path %></li> 
+       <% if user_signed_in? %>
+          <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
+        <% else %>
+          <li><%= link_to "Sign in", new_user_session_path %></li>
+        <% end %>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
+</div>
 
 
-
+ <div class="container">
 <div class="jumbotron">
 	<h1>Welcome to my app!</h1>
-	<p>Click here to <%= link_to "Sign up", "#", class: "btn btn-primary" %></p>
+<% if user_signed_in? %>
+          # do something
+     <% else %>
+       <p>
+         <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
+         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+       </p>
+  <% end %>  
+</div>
 </div>
