@@ -10,4 +10,8 @@ class PagesController < ApplicationController
 
   def used
   end
+
+  def store
+  end
+
 end
