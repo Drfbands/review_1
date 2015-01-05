@@ -24,6 +24,8 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 3.1.0.rc2'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
+gem 'figaro'
+
 group :development, :test do
 	gem 'sqlite3'
 end

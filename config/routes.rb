@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   get "app" => "pages#app"
   get "store" => "pages#store"
 
+  resources :charges
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
